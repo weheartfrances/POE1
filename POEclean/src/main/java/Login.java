@@ -15,5 +15,7 @@ public class Login {
         this.firstName = firstName;
         this.lastName = lastName; }
     
-    public
-}
+    public boolean checkUsername() { 
+    return username.contains("-") && username.length() <= 5;
+    }
+    }
